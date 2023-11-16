@@ -1,0 +1,36 @@
+# .gitignore para projetos .NET Core
+
+# Arquivos e pastas de build
+bin/
+obj/
+
+# Arquivos temporários
+*.swp
+*~
+
+# Arquivos de configuração do Visual Studio
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+*.sln.docstates
+
+# Pacotes NuGet
+*.nupkg
+*.pdb
+
+# Pasta de dependências do .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.vs/
+
+# Configurações do Rider
+.idea/
+
+# Logs e arquivos de exceção
+*.log
+*.log.*
+*.crash
+*.patch
